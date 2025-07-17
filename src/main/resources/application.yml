@@ -1,6 +1,7 @@
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
-        - health
-        - prometheus
+        include:
+          - health
+          - prometheus
