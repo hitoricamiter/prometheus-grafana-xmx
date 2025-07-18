@@ -5,3 +5,8 @@ management:
         include:
           - health
           - prometheus
+  metrics:
+    tags:
+      application: sandbox
+server:
+  port: 8081
